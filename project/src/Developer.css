@@ -1,0 +1,35 @@
+.note {
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: fit-content;
+    margin: 16px;
+    float: left;
+    color: black;
+  }
+  /* .note:nth-child(even){
+    background: #eee;
+  }
+  .note:nth-child(odd){
+    background: #F1F1F1;
+  } */
+.Top-container{
+  /* background-color: #e9b84d; */
+  height: 100vh;
+}
+.logo_dev {
+  display: contents;
+  font-size: 27px;
+  font-weight: 600;
+  color: #3f0097;
+}
+.LogOut_dev{
+  font-size: small;
+  color: #965e94;
+  cursor: pointer;
+}
+.MainContainer_dev{
+  position: absolute;
+  top: 5rem;
+}

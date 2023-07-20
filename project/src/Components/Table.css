@@ -1,0 +1,83 @@
+ .modal-backdrop.show {
+    opacity: 0 !important;
+}
+.modal-backdrop{
+    --bs-backdrop-zindex: 0 !important;
+} 
+.MuiTablePagination-displayedRows,.MuiTablePagination-selectLabel{
+    margin-bottom: 0 !important;
+}
+.css-z8fhq1-MuiDataGrid-columnHeaders{
+  background-color: #5d3bc5;
+  color: white;
+}
+.css-s1v7zr-MuiDataGrid-virtualScrollerRenderZone{
+    background-color:white !important;
+}
+.css-17jjc08-MuiDataGrid-footerContainer{
+    background-color: white;
+}
+.css-n2kfzl {
+    height: 370px !important;
+}
+.css-1e2bxag-MuiDataGrid-root .MuiDataGrid-row:not(.MuiDataGrid-row--dynamicHeight)>.MuiDataGrid-cell{
+    white-space:normal !important
+}
+.MuiDataGrid-root--densityStandard{
+  background-color: white;
+}
+ .MuiDataGrid-sortIcon {
+    opacity: 1 !important;
+    color: white;
+}
+.css-1pe4mpk-MuiButtonBase-root-MuiIconButton-root{
+ visibility: visible !important;
+}
+.css-1e2bxag-MuiDataGrid-root .MuiDataGrid-menuIcon{
+    width: auto !important;
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall.css-ptiqhd-MuiSvgIcon-root {
+    color: #fff;
+}
+/* .finished.MuiDataGrid-cell.MuiDataGrid-cell--textLeft {
+    min-height: -webkit-fill-available !important;
+    max-height: -webkit-fill-available !important;
+}
+.MuiDataGrid-row {
+    max-height: -webkit-fill-available !important;
+    min-height: -webkit-fill-available !important;
+}
+.MuiDataGrid-cell.MuiDataGrid-cell--textLeft{
+    max-height: -webkit-fill-available !important;
+    min-height: -webkit-fill-available !important;
+}
+.css-1e2bxag-MuiDataGrid-root .MuiDataGrid-columnHeader, .css-1e2bxag-MuiDataGrid-root .MuiDataGrid-cell{
+    padding: 20px 10px !important;
+}
+.MuiDataGrid-virtualScroller.css-1w5m2wr-MuiDataGrid-virtualScroller {
+    height: 390px !important;
+} */
+/* .css-j5rdqv {
+    height: 493px !important;
+} */
+.Reacttable{
+    display: none;
+}
+.TaskModel{
+    display: none;
+}
+.card{
+    width: 75%;
+    min-width: 48%;
+    margin: auto;
+    height: fit-content;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.card-body{
+    margin-left: 2px;
+}
+@media screen and (max-width: 1070px) {
+    .card {
+      width: auto;
+    }
+}
